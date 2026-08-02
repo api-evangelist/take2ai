@@ -1,7 +1,19 @@
 aid: take2ai
 name: Take2.ai
-description: Take2.ai is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Take2.ai builds autonomous AI agents purpose-built for healthcare recruiting,
+  automating the end-to-end hiring workflow from candidate sourcing through
+  screening, interviewing, credential verification, and scheduling. Its product
+  suite includes an AI Interviewer that conducts 24/7 phone interviews and syncs
+  scoring and transcripts back into the recruiter's system, an AI Sourcer that
+  re-engages past applicants to build pipelines for hard-to-fill clinical roles,
+  an AI Verifier for real-time credential and certification checks, and an AI
+  Scheduler for interview coordination. The platform integrates with most ATS
+  and HRIS systems, is hosted on AWS in the United States, and is SOC 2 Type II
+  compliant. Take2.ai is a Techstars-backed company serving enterprise
+  healthcare organizations. As of this profile the company exposes a
+  customer-facing SaaS product and ATS/HRIS integrations but publishes no public
+  developer API, OpenAPI, SDKs, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/take2ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +21,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://framerusercontent.com/assets/bGV6kUPDGgFwD7b13niWWjdnREg.jpg
 tags:
 - Company
+- Healthcare
+- Recruiting
+- Artificial Intelligence
+- AI Agents
+- Human Resources
+- Talent Acquisition
+- Hiring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://take2.ai/
+  url: https://www.take2.ai/
+- type: Blog
+  url: https://www.take2.ai/blog
+- type: PrivacyPolicy
+  url: https://www.take2.ai/privacy-policy
+- type: TermsOfService
+  url: https://www.take2.ai/terms-of-use
+- type: DomainSecurity
+  url: security/take2ai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
